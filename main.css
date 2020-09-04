@@ -1,0 +1,40 @@
+body{
+
+}
+
+#header{
+	background-color:black;
+	height:100px;
+}
+
+#logo{
+	width:200px;
+	height:100px;
+	float:left;
+}
+
+.nav{
+	padding-left:400px;
+	padding-top:75px;
+}
+
+.nav ul li{
+	display:inline;
+	text-decoration:none;
+	padding-left:80px;
+}
+
+.nav ul li a{
+	text-decoration:none;
+	color:white;
+}
+
+section#mainImage {
+	background-image: url("img/banner.jpg");
+	background-repeat:no-repeat;
+	text-align: center;
+}
+
+#team h2{
+	text-align:center;
+}
