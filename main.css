@@ -4,37 +4,149 @@ body{
 
 #header{
 	background-color:black;
-	height:100px;
-}
-
-#logo{
-	width:200px;
-	height:100px;
+	/*height:50px;*/
+	width:1260px;
 	float:left;
 }
 
-.nav{
-	padding-left:400px;
-	padding-top:75px;
+#main{
+	text-decoration:none;
+	color:white;
+	font-family: Monotype Corsiva;
+	font-size:30px;
+	float:left;
+}
+
+.nav ul{
+	padding-left:350px;
 }
 
 .nav ul li{
-	display:inline;
-	text-decoration:none;
-	padding-left:80px;
+	padding-left:78px;
 }
 
 .nav ul li a{
 	text-decoration:none;
 	color:white;
+	font-family: Monotype Corsiva;
+	font-size:19px;
 }
 
-section#mainImage {
-	background-image: url("img/banner.jpg");
-	background-repeat:no-repeat;
+#mainImage {
+	height:600px;
+	background-position: center;
 	text-align: center;
 }
 
-#team h2{
+#mainText{
+	padding-top:200px;
+	font-family:Comic Sans MS;
+}
+
+#text{
+	font-family:Monotype Corsiva;
+	font-size: 30px;
+	color:cyan;
+}
+
+#team{
+	padding-top:100px;
+}
+
+#team h1{
 	text-align:center;
+}
+
+#team ul li{
+	list-style: none;
+}
+
+#purpose{
+	padding-top:100px;
+	width:1260px;
+	height:500px;
+}
+
+#purpose h1{
+	text-align: center;
+}
+
+#purpose p{
+	padding-left:20px;
+	text-align: center;
+}
+
+#purpose ul{
+	list-style:none;
+}
+
+#purpose ul li{
+	width:175px;
+	float:left;
+	margin-left:100px;
+	margin-right:100px;
+	text-align: center;
+}
+
+#purpose ul li h4{
+	padding-top:20px;
+	text-align: center;
+}
+
+#value{
+	padding-bottom:100px;
+}
+
+#value h1{
+	text-align: center;
+}
+
+#value p{
+	text-align: center;
+}
+
+#value ul{
+	list-style: none;
+}
+
+#value ul li{
+	width:130px;
+	float:left;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+}
+
+#value ul li p{
+	padding-top:10px;
+}
+
+#customer{
+	width:1260px;
+	height:400px;
+	padding-top:100px;
+	padding-left:50px;
+}
+
+#customer h1{
+	text-align:center;
+}
+
+#customer p{
+	text-align:center;
+}
+
+#customer input{
+	/*border-left:none;
+	border-top:none;
+	border-right:none;*/
+	width:500px;
+}
+
+#customer textarea{
+	/*border-left:none;
+	border-top:none;
+	border-right:none;*/
+	width:500px;
+	/*padding-top:20px;*/
 }

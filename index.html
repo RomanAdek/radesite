@@ -7,6 +7,8 @@
 
 	    <!-- Bootstrap CSS -->
 	    <link rel="stylesheet" href="css/bootstrap.min.css">
+	    <link rel="stylesheet" href="fontawesome-free-5.14.0-web/css/all.css">
+	    <link rel="stylesheet" type="text/css" href="dripicons/webfont.css">
 		<title>
 			R.ADE CONSULTS
 		</title>
@@ -18,29 +20,30 @@
 	<body>
 		<div class="wrapper">
 			<header id="header">
-				<a href="index.html"><img src="img/6.png" id="logo"/></a>
-				<nav class="nav">
-					<ul>
-						<li><a href="index.html">About</a></li>
-						<li><a href="#">Products</a></li>
-						<li><a href="#">Portfolio</a></li>
-						<li><a href="#">Work With Us</a></li>
+				<nav class="nav navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+					<a class="navbar-brand" href="index.html" id="main">R.ADE Consults</a>
+				
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item"><a class ="nav-link" href="index.html">About</a></li>
+						<li class="nav-item"><a class ="nav-link" href="#">Products</a></li>
+						<li class="nav-item"><a class ="nav-link" href="#">Portfolio</a></li>
+						<li class="nav-item"><a class ="nav-link" href="#">Work With Us</a></li>
 					</ul>
 				</nav>
 			</header>
 			<section id="mainImage" style="background-image: url('img/banner.jpg')">
-				<h2 id="mainText">
+				<h1 id="mainText">
 					R.ADE CONSULTS
-				</h2>
-				<p class="text">
+				</h1>
+				<p id="text">
 					At R.ADE Consults, we aim to satisfy your every need
 				</p>
-				<button>
+				<button class="btn btn-md btn-danger">
 					Work With Us
 				</button>
 			</section>
 			<section id="team">
-				<h2>MEET OUR TEAM MEMBERS</h2>
+				<h1>MEET OUR TEAM MEMBERS</h1>
 				<ul>
 					<li>
 						<figure>
@@ -54,53 +57,89 @@
 				</ul>
 			</section>
 			<section id="purpose">
-				<h2>What We Do</h2>
+				<h1>What We Do</h1>
 				<p>Here are R.Ade Consults, we focus on three things
 					<ul>
-						<li>Quality: We focus on providing the best solutions for your establishment</li>
-						<li>Customizing: We believe A's solution might not necessarily work for B. So we
-							customize our services to provide the solution that is best suited to your 
-							establishment
+						<li>
+							<i class ="fas fa-award fa-5x"></i>
+							<h4>Quality</h4>
+							<p>We focus on providing the best solutions for your establishment</p>
 						</li>
-						<li>Affordability: What is the point of having the solution if you cannot afford it?
-							So we provide our services at prices that can be easily afforded by your establishment
+						<li>
+							<i class ="fas fa-edit fa-5x"></i>
+							<h4>Customizing</h4>
+							<p>We customize our services to provide a solution made only for you</p>
+						</li>
+						<li>
+							<i class="fas fa-hand-holding-usd fa-5x"></i>
+							<h4>Affordability</h4>
+							<p>We provide our services at easily afforded prices</p>
 						</li>
 					</ul>
 			</section>
 			<section id="value">
-				<h2>Why You Should Work With Us</h2>
-				<p>As a business establishment, there are some things that are a necessity to growth. Web services is one of them. This are some of the things you get when you allow us take your business online</p>
+				<h1>Why You Should Work With Us</h1>
+				<p>As a business establishment, web services are a necessity to growth. This are some of the things you get when you allow us take your business online</p>
 				<ul>
-					<li>Increased Web Presence</li>
-					<li>Increase in Credibility</li>
-					<li>Faster and more efficient ways of attracting and keeping customers</li>
-					<li>24 Hours Availability</li>
-					<li>Unlimited Audience</li>
-					<li>Makes it easier for customers to find your business</li>
-					<li>Automates a number of process that would have been grueling to do manually</li>
+					<li>
+						<i class="fas fa-globe fa-5x"></i>
+						<p>Increased Web Presence</p>
+					</li>
+					<li>
+						<i class="fas fa-universal-access fa-5x"></i>
+						<p>Increase in Accessibility</p>
+					</li>
+					<li>
+						<i class="fas fa-magnet fa-5x"></i>
+						<p>Efficient ways of attracting customers</p>
+					</li>
+					<li>
+						<i class="fas fa-clock fa-5x"></i>
+						<p>24 Hours Availability</p>
+					</li>
+					<li>
+						<i class="fas fa-infinity fa-5x"></i>
+						<p>Unlimited Audience</p>
+					</li>
+					<li>
+						<i class="fas fa-search fa-5x"></i>
+						<p>Makes it easier for customers to find your business</p>
+					</li>
+					<li>
+						<i class="fas fa-robot fa-5x"></i>
+						<p>Automates processes</p>
+					</li>
 				</ul>
 			</section>
-			<section id="customers">
-				<h2>Your Part</h2>
+			<div id="customer">
+				<h1>Your Part</h1>
 				<p>Just fill the form below and wait for our representatives to get back to you</p>
 				<form method="post">
-					<label>Email:<br/>
-						<input type="text" name="email"/>
-					</label><br/>
-					<label>Your Message:<br/>
-						<textarea name="message" id="message">Enter your Message</textarea>
-					</label><br/>
-					<button>Submit</button>
+					<div class="form-label-group">
+    					<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+    					<label for="inputEmail"><!-- Email address --></label>
+  					</div>
+  					<div class="form-label-group">
+    					<textarea id="message" class="form-control" placeholder="Your Message" required autofocus>
+    					</textarea> 
+  					</div>
+					<!-- <label>Your Message:<br/>
+						<textarea name="message" id="message"></textarea>
+					</label><br/> -->
+					<button class="btn btn-sm btn-primary">Submit</button>
 				</form>
+			</div>
 
-				<p>You can also call any of the numbers below to get more information about us. You can also chat us up on WhatsApp using any of those numbers. We aim to please and we are just a touch away</p>
-				<p>08144632746<br/>08124635109</p>
-			</section>
+				<!-- <p>You can also call any of the numbers below to get more information about us. You can also chat us up on WhatsApp using any of those numbers. We aim to please and we are just a 
+				touch away</p>
+				<p>08144632746<br/>08124635109</p> -->
+			
 		</div>
 		<!-- Optional JavaScript -->
 	    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 	    <script src="js/bootstrap.min.js" ></script>
+	    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
   	</body>
 </html>
