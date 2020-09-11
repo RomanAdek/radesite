@@ -8,10 +8,10 @@
 	    <!-- Bootstrap CSS -->
 	    <link rel="stylesheet" href="css/bootstrap.min.css">
 	    <link rel="stylesheet" href="fontawesome-free-5.14.0-web/css/all.css">
-	    <link rel="stylesheet" type="text/css" href="dripicons/webfont.css">
 		<title>
 			R.ADE CONSULTS
 		</title>
+		<link rel="stylesheet" type="text/css" href="css/blog.css">
 		<link href="css/main.css" type="text/css" rel="stylesheet">
 		<!--[if lt IE 9]>
  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -25,9 +25,9 @@
 				
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item"><a class ="nav-link" href="index.html">About</a></li>
-						<li class="nav-item"><a class ="nav-link" href="#">Products</a></li>
-						<li class="nav-item"><a class ="nav-link" href="#">Portfolio</a></li>
-						<li class="nav-item"><a class ="nav-link" href="#">Work With Us</a></li>
+						<li class="nav-item"><a class ="nav-link disabled" href="#">Products</a></li>
+						<li class="nav-item"><a class ="nav-link" href="#portfolio">Portfolio</a></li>
+						<li class="nav-item"><a class ="nav-link" href="#customer">Work With Us</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -38,7 +38,7 @@
 				<p id="text">
 					At R.ADE Consults, we aim to satisfy your every need
 				</p>
-				<button class="btn btn-md btn-danger">
+				<button class="btn btn-md btn-primary">
 					Work With Us
 				</button>
 			</section>
@@ -56,6 +56,7 @@
 					</li>
 				</ul>
 			</section>
+			<hr/>
 			<section id="purpose">
 				<h1>What We Do</h1>
 				<p>Here are R.Ade Consults, we focus on three things
@@ -79,7 +80,7 @@
 			</section>
 			<section id="value">
 				<h1>Why You Should Work With Us</h1>
-				<p>As a business establishment, web services are a necessity to growth. This are some of the things you get when you allow us take your business online</p>
+				<p>As a business establishment, web and branding services are a necessity to growth. This are some of the things you get when you allow us brand your business</p>
 				<ul>
 					<li>
 						<i class="fas fa-globe fa-5x"></i>
@@ -111,35 +112,124 @@
 					</li>
 				</ul>
 			</section>
+			<div id="spacetaker">
+				
+			</div>
+			<hr/>
+			<section id="portfolio">
+				<h1>
+					Portfolio
+				</h1>
+				<p>These are some projects we have done in the past</p>
+				<div class="work" style="background-image:url('img/knoxy.png')">
+						<ul class="iconslist">
+							<!-- <span class="icons"> -->
+								<li>
+									<i class="fas fa-search icons"></i>
+								</li>
+							<!-- </span> -->
+							<!-- <span class="icons"> -->
+								<li>
+									<i class="fas fa-link icons"></i>
+								</li>
+							<!-- </span> -->
+						</ul>
+					<div class="toolt">
+						<h4>
+							Knoxy E-Sports
+						</h4>
+						<p>This is a website built for PUBG gamers</p>
+					</div>
+				</div>
+				<div class="work" style="background-image:url('img/capture.png')">
+						<ul class="iconslist">
+							<!-- <span class="icons"> -->
+								<li>
+									<i class="fas fa-search icons"></i>
+								</li>
+							<!-- </span> -->
+							<!-- <span class="icons"> -->
+								<li>
+									<i class="fas fa-link icons"></i>
+								</li>
+							<!-- </span> -->
+						</ul>
+					<div class="toolt">
+						<h4>
+							Knoxy E-Sports
+						</h4>
+						<p>This is a website built for PUBG gamers</p>
+					</div>
+				</div>
+				<div class="work" style="background-image:url('img/knoxy.png')">
+						<ul class="iconslist">
+							<!-- <span class="icons"> -->
+								<li>
+									<i class="fas fa-search icons"></i>
+								</li>
+							<!-- </span> -->
+							<!-- <span class="icons"> -->
+								<li>
+									<i class="fas fa-link icons"></i>
+								</li>
+							<!-- </span> -->
+						</ul>
+					<div class="toolt">
+						<h4>
+							Knoxy E-Sports
+						</h4>
+						<p>This is a website built for PUBG gamers</p>
+					</div>
+				</div>
+			</section>
+			<div class="space">
+				
+			</div>
+			<hr/>
 			<div id="customer">
 				<h1>Your Part</h1>
-				<p>Just fill the form below and wait for our representatives to get back to you</p>
-				<form method="post">
-					<div class="form-label-group">
-    					<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-    					<label for="inputEmail"><!-- Email address --></label>
-  					</div>
-  					<div class="form-label-group">
-    					<textarea id="message" class="form-control" placeholder="Your Message" required autofocus>
-    					</textarea> 
-  					</div>
-					<!-- <label>Your Message:<br/>
-						<textarea name="message" id="message"></textarea>
-					</label><br/> -->
-					<button class="btn btn-sm btn-primary">Submit</button>
-				</form>
+				<p id="center">Just fill the form below and wait for our representatives to get back to you</p>
+				<div id="form">
+					<form method="post">
+						<div class="form-label-group">
+							<input type="text" id="name" class="form-control" placeholder="Your Name" required>
+						</div>
+						<div class="form-label-group">
+    						<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
+    						<!-- <label for="inputEmail">Email address</label> -->
+  						</div>
+  						<div class="form-label-group">
+    						<textarea id="message" class="form-control" placeholder="Your Message" required></textarea> 
+  						</div>
+						<button class="btn btn-sm btn-primary">Submit</button>
+					</form>
+				</div>
+				<p class="size">You can also call any of the numbers below to get more information about us. You can also chat us up on WhatsApp and send a mail. We aim to please and we are just a	touch away</p>
+				<p><i class="fab fa-whatsapp"></i>08144632746<br/>
+					<i class="fas fa-mobile-alt"></i>08124635109<br/>
+					<a href="mailto:radeconsult@gmail.com"> <i class="fas fa-envelope"></i>radeconsult@gmail.com</a>
+				</p>
 			</div>
-
-				<!-- <p>You can also call any of the numbers below to get more information about us. You can also chat us up on WhatsApp using any of those numbers. We aim to please and we are just a 
-				touch away</p>
-				<p>08144632746<br/>08124635109</p> -->
-			
+			<div class="spacetaker">
+				
+			</div>
+			<footer class="blog-footer footer-dark">
+				<p>Join us on Social Media</p>
+				<section id="icons">
+					<a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+					<a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+					<a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+				</section>
+				<p>
+					<a href="#">Back to top</a>
+				</p>
+			</footer>
 		</div>
+
 		<!-- Optional JavaScript -->
 	    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 	    <script src="js/bootstrap.min.js" ></script>
-	    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
   	</body>
 </html>
