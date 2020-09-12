@@ -1,18 +1,18 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr">
   	<head>
 	    <!-- Required meta tags -->
 	    <meta charset="utf-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	    <!-- Bootstrap CSS -->
-	    <link rel="stylesheet" href="css/bootstrap.min.css">
-	    <link rel="stylesheet" href="fontawesome-free-5.14.0-web/css/all.css">
+	    <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.min.css')}}">
+	    <link rel="stylesheet" href="{{url_for('static', filename='fontawesome-free-5.14.0-web/css/all.css')}}">
 		<title>
 			R.ADE CONSULTS
 		</title>
-		<link rel="stylesheet" type="text/css" href="css/blog.css">
-		<link href="css/main.css" type="text/css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/blog.css')}}">
+		<link href="{{url_for('static', filename='css/main.css')}}" type="text/css" rel="stylesheet">
 		<!--[if lt IE 9]>
  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
  		<![endif]-->
@@ -31,7 +31,7 @@
 					</ul>
 				</nav>
 			</header>
-			<section id="mainImage" style="background-image: url('img/banner.jpg')">
+			<section id="mainImage" style="background-image: url('/static/img/banner.jpg')">
 				<h1 id="mainText">
 					R.ADE CONSULTS
 				</h1>
@@ -121,7 +121,7 @@
 					Portfolio
 				</h1>
 				<p>These are some projects we have done in the past</p>
-				<div class="work" style="background-image:url('img/knoxy.png')">
+				<div class="work" style="background-image:url('/static/img/knoxy.png')">
 						<ul class="iconslist">
 							<!-- <span class="icons"> -->
 								<li>
@@ -141,7 +141,7 @@
 						<p>This is a website built for PUBG gamers</p>
 					</div>
 				</div>
-				<div class="work" style="background-image:url('img/capture.png')">
+				<div class="work" style="background-image:url('/static/img/capture.png')">
 						<ul class="iconslist">
 							<!-- <span class="icons"> -->
 								<li>
@@ -161,7 +161,7 @@
 						<p>This is a website built for PUBG gamers</p>
 					</div>
 				</div>
-				<div class="work" style="background-image:url('img/knoxy.png')">
+				<div class="work" style="background-image:url('/static/img/knoxy.png')">
 						<ul class="iconslist">
 							<!-- <span class="icons"> -->
 								<li>
